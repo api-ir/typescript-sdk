@@ -252,8 +252,6 @@ if (!result.success || result.data === null) {
 |---|---|---|---|---|
 | `name` | `string` | بله | نام شما؟ | `"علی"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { echo } from "./src/index.js";
 
@@ -291,8 +289,6 @@ if (!result.success) {
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
 | `isCompany` | `boolean` | خیر (پیش‌فرض `false`) | حقوقی یا حقیقی | `false` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { shahkar } from "./src/index.js";
 
@@ -324,8 +320,6 @@ true
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { shahkarLite } from "./src/index.js";
 
@@ -355,8 +349,6 @@ true
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
 | `isCompany` | `boolean` | خیر (پیش‌فرض `false`) | حقوقی یا حقیقی | `false` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { shahkarPro } from "./src/index.js";
@@ -388,8 +380,6 @@ true
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `birthDate` | `string` | بله | تاریخ تولد به فرمت : 1370/1/1 | `"1371/1/1"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { personInfo } from "./src/index.js";
@@ -471,8 +461,6 @@ if (!result.success) {
 | `birthDate` | `string` | بله | تاریخ تولد به فرمت : 1370/1/1 | `"1371/1/1"` |
 | `cardNumber` | `string` | بله | شماره کارت بانکی | `"6037990000000000"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { cardMatch } from "./src/index.js";
 
@@ -501,8 +489,6 @@ true
 |---|---|---|---|---|
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
 | `cardNumber` | `string` | بله | شماره کارت بانکی | `"6037990000000000"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { cardMobileMatch } from "./src/index.js";
@@ -534,8 +520,6 @@ true
 | `birthDate` | `string` | بله | تاریخ تولد به فرمت : 1370/1/1 | `"1371/1/1"` |
 | `iban` | `string` | بله | شماره شبا 26 رقمی به فرمت IR000000000000000000000000 | `"IR820540102680020817909002"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { ibanMatch } from "./src/index.js";
 
@@ -564,8 +548,6 @@ true
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `iban` | `string` | بله | شماره شبا 26 رقمی به فرمت IR000000000000000000000000 | `"IR820540102680020817909002"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { ibanMatchPro } from "./src/index.js";
@@ -631,8 +613,6 @@ true
 | `code` | `string` | بله | کد یکبار مصرف یا OTP | `"12345"` |
 | `number` | `string` | بله | شماره موبایل 09121112222 یا تلفن ثابت به فرمت 02122228888 | `"09121112222"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { callOtp } from "./src/index.js";
 
@@ -663,8 +643,6 @@ true
 |---|---|---|---|---|
 | `code` | `string` | بله | کد یکبار مصرف یا OTP | `"1234"` |
 | `number` | `string` | بله | شماره موبایل 09121112222 یا تلفن ثابت به فرمت 02122228888 | `"09121112222"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { callOtpAlt } from "./src/index.js";
@@ -697,8 +675,6 @@ true
 | `code` | `string` | بله | کد یا OTP | `"123456"` |
 | `mobile` | `string` | بله | موبایل به فرمت 09121112222 | `"09120000000"` |
 | `template` | `number` | خیر (پیش‌فرض `1`) | کد=0 کد ورود=1 کد تایید=2 رمز=3 رمز ورود=4 و برای افزودن نام به انتها پیامک به پشتیبانی پیام دهید | `1` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { smsOtp } from "./src/index.js";
@@ -758,8 +734,6 @@ if (!result.success) {
 **کاربرد:** تولید متن تصادفی برای خواندن در احراز ویدئویی.
 
 این سرویس ورودی ندارد و بدنه‌ی `{}` ارسال می‌شود.
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — بدون ورودی، استعلام سبک.
 
 ```ts
 import { videoVerifySpeechText } from "./src/index.js";
@@ -844,8 +818,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `domain` | `string` | بله | نام دامنه | `"mci.ir"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { enamad } from "./src/index.js";
 
@@ -882,8 +854,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `weekend` | `boolean` | خیر (پیش‌فرض `true`) | تعطیلات آخر هفته هم لحاظ شود؟ | `true` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { isHoliday } from "./src/index.js";
 
@@ -912,8 +882,6 @@ true
 
 این سرویس ورودی ندارد و بدنه‌ی `{}` ارسال می‌شود.
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — بدون ورودی، استعلام سبک.
-
 ```ts
 import { wallpaper } from "./src/index.js";
 
@@ -941,8 +909,6 @@ null
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `ip` | `string` | بله | آی پی ورژن 4 | `"5.212.154.19"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { ipLocation } from "./src/index.js";
@@ -987,8 +953,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `email` | `string` | بله | ایمیل | `"info@api.ir"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { checkEmail } from "./src/index.js";
 
@@ -1017,8 +981,6 @@ true
 |---|---|---|---|---|
 | `ip` | `string` | بله | آی پی ورژن 4 | `"192.168.1.1"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { ipIsIran } from "./src/index.js";
 
@@ -1044,8 +1006,6 @@ true
 **کاربرد:** دریافت IP برنامه (کلاینت).
 
 این سرویس ورودی ندارد و بدنه‌ی `{}` ارسال می‌شود.
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — بدون ورودی، استعلام سبک.
 
 ```ts
 import { myIp } from "./src/index.js";
@@ -1075,8 +1035,6 @@ null
 |---|---|---|---|---|
 | `accountNumber` | `string` | بله | شماره حساب بانکی | `"3022.100.18878774.1"` |
 | `bankCode` | `string` | خیر | مرکزی=010 صنعت‌ومعدن=011 ملت=012 رفاه=013 مسکن=014 سپه=015 کشاورزی=016 ملی=017 تجارت=018 صادرات=019 توسعه‌صادرات=020 پست‌بانک=021 توسعه‌تعاون=022 کارآفرین=053 پارسیان=054 اقتصادنوین=055 سامان=056 پاسارگاد=057 سرمایه=058 سینا=059 مهرایران=060 شهر=061 آینده=062 گردشگری=064 دی=066 ایران‌زمین=069 رسالت=070 ملل=075 خاورمیانه=080 | `"012"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { bankAccountInfo } from "./src/index.js";
@@ -1115,8 +1073,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `cardNumber` | `string` | بله | شماره کارت | `"6037990000000000"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { bankCardInfo } from "./src/index.js";
 
@@ -1149,8 +1105,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `cardNumber` | `string` | بله | شماره کارت بانکی | `"6037990000000000"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { cardInfo } from "./src/index.js";
 
@@ -1180,8 +1134,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `cardNumber` | `string` | بله | شماره کارت بانکی | `"6037990000000000"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { cardToIban } from "./src/index.js";
@@ -1215,8 +1167,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `iban` | `string` | بله | شماره شبا 26 رقمی به فرمت IR000000000000000000000000 | `"IR820540102680020817909002"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { ibanInfo } from "./src/index.js";
 
@@ -1248,8 +1198,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `nationalID` | `string` | بله | شناسه ملی شرکت | `"14007650912"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { companyInfo } from "./src/index.js";
@@ -1290,8 +1238,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `nationalID` | `string` | بله | شناسه ملی شرکت | `"14007650912"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { companyMembers } from "./src/index.js";
@@ -1460,8 +1406,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `inquiryCode` | `string` | بله | شماره ملی حقیقی/ شناسه ملی حقوقی/ شماره فراگیر/ شماره رهگیری/ شماره اقتصادی | `"14007650912"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { taxRecords } from "./src/index.js";
 
@@ -1500,8 +1444,6 @@ if (!result.success) {
 | `latitude` | `number` | بله | طول جغرافیایی | `35.6892` |
 | `longitude` | `number` | بله | عرض جغرافیایی | `51.389` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { geoToAddress } from "./src/index.js";
 
@@ -1535,8 +1477,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `postalCode` | `string` | بله | کد پستی | `"1234567890"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { postalCodeInfo } from "./src/index.js";
@@ -1578,8 +1518,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `postalCode` | `string` | بله | کد پستی | `"1234567890"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { postalCodePro } from "./src/index.js";
@@ -1624,8 +1562,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `trackingCode` | `string` | بله | کد رهیگیری مرسوله | `"1234567890"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { postalTracking } from "./src/index.js";
@@ -1674,8 +1610,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `postalCode` | `string` | بله | کد پستی | `"1234567890"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { postalCodeLocation } from "./src/index.js";
@@ -1778,8 +1712,6 @@ null
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 | `isCompany` | `boolean` | خیر (پیش‌فرض `false`) | حقوقی یا حقیقی | `false` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { sana } from "./src/index.js";
 
@@ -1807,8 +1739,6 @@ true
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { unpaidCheque } from "./src/index.js";
@@ -1844,8 +1774,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { unpaidChequeLite } from "./src/index.js";
 
@@ -1875,8 +1803,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { unpaidChequePro } from "./src/index.js";
@@ -1931,8 +1857,6 @@ if (!result.success) {
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 | `isCompany` | `boolean` | خیر (پیش‌فرض `false`) | حقوقی یا حقیقی | `false` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { chequeColor } from "./src/index.js";
 
@@ -1965,8 +1889,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `chequeID` | `string` | بله | شناسه چک صیاد | `"111110010007700"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { chequeInfo } from "./src/index.js";
@@ -2006,8 +1928,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `trackingCode` | `string` | بله | کد پیگیری مجوز | `"BL123456"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { license } from "./src/index.js";
@@ -2098,8 +2018,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { activeLoans } from "./src/index.js";
 
@@ -2140,8 +2058,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { passportStatus } from "./src/index.js";
@@ -2184,8 +2100,6 @@ if (!result.success) {
 | `mobile` | `string` | بله | شماره موبایل | `"09120000000"` |
 | `licenseNumber` | `string` | بله | شماره گواهینامه | `"20983905093"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { drivingScore } from "./src/index.js";
 
@@ -2219,8 +2133,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { drivingLisense } from "./src/index.js";
@@ -2269,8 +2181,6 @@ if (!result.success) {
 | `nationalCode` | `string` | بله | کد ملی یا شناسه ملی | `"0010007700"` |
 | `mobile` | `string` | بله | موبایل با فرمت 09120001111 | `"09120000000"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { drivingLicense } from "./src/index.js";
 
@@ -2317,8 +2227,6 @@ if (!result.success) {
 | `nationalCode` | `string` | بله | کد ملی شخص جهت استعلام وضعیت نظام وظیفه | `"0012345678"` |
 | `birthDate` | `string` | بله | تاریخ تولد شخص به فرمت yyyy/mm/dd | `"1370/05/20"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { militaryStatus } from "./src/index.js";
 
@@ -2351,8 +2259,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی صاحب خودرو | `"0057684356"` |
 | `mobile` | `string` | بله | شماره موبایل صاحب خودرو | `"09123456789"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { activePlates } from "./src/index.js";
@@ -2391,8 +2297,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `plateNumber` | `string` | بله | پلاک به فرمت : ایران 11 – 1111 ب 11 | `"ایران 11 – 1111 ب 11"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { plateHistory } from "./src/index.js";
@@ -2434,8 +2338,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `plateNumber` | `string` | بله | پلاک به فرمت : ایران 11 – 1111 ب 11 | `"ایران 11 – 1111 ب 11"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { vehicleCard } from "./src/index.js";
@@ -2487,8 +2389,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `nationalCode` | `string` | بله | کد ملی | `"0010007700"` |
 | `plateNumber` | `string` | بله | پلاک به فرمت : ایران 11 – 1111 ب 11 | `"ایران 11 – 1111 ب 11"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { vehicleInfo } from "./src/index.js";
@@ -2584,8 +2484,6 @@ if (!result.success) {
 | `code` | `string` | بله | کد | `"121302310622"` |
 | `codeType` | `number` | بله | کد شناسایی تبعه=1 فیدا=2 شناسه فراگیر ناجا=3 کد یکتا=4 | `2` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { nationalityStatus } from "./src/index.js";
 
@@ -2639,8 +2537,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه قبض | `"1100151403410"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { watterBill } from "./src/index.js";
 
@@ -2675,8 +2571,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه قبض | `"1100151403410"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { watterBillInfo } from "./src/index.js";
@@ -2727,8 +2621,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه قبض | `"1100151403410"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { gasBill } from "./src/index.js";
 
@@ -2761,8 +2653,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه اشتراک | `"1100151403410"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { gasBillInfo } from "./src/index.js";
@@ -2813,8 +2703,6 @@ if (!result.success) {
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه قبض | `"1100151403410"` |
 
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
-
 ```ts
 import { powerBill } from "./src/index.js";
 
@@ -2847,8 +2735,6 @@ if (!result.success) {
 | پارامتر | نوع | اجباری | توضیح | نمونه‌مقدار |
 |---|---|---|---|---|
 | `billID` | `string` | بله | شناسه قبض | `"1100151403410"` |
-
-**مهلت پیش‌فرض این سرویس:** ۳۰ ثانیه (از `config.timeout`) — استعلام سبک.
 
 ```ts
 import { powerBillInfo } from "./src/index.js";
