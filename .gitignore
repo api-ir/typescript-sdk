@@ -1,0 +1,20 @@
+# وابستگی‌ها
+node_modules/
+
+# خروجی build — با `npm run build` داخل apiir/ ساخته می‌شود
+apiir/dist/
+
+# لاگ‌ها و فایل‌های موقت
+npm-debug.log*
+*.log
+*.tsbuildinfo
+
+# متغیرهای محیطی — توکن api.ir هرگز commit نشود
+.env
+.env.*
+
+# فایل‌های سیستم‌عامل و ویرایشگر
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
